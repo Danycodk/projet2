@@ -1,0 +1,200 @@
+body{
+    width: 100%;
+} 
+#all_the_page 
+{
+    width: 90%;
+}
+/*----------------------------------------*/
+/* le logo Booki et les titres hebergements et activites */
+/*----------------------------------------*/
+header
+{
+    width: 100%; /* 100%; */
+}
+nav li
+{
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    padding-top: 0px;
+    border-top:none;
+}
+nav li:nth-child(1)
+{
+   padding-top: 0px;
+   border-top:none;
+}
+nav li:nth-child(2)
+{
+  padding-top: 0px;
+  border-top:none;
+}
+/*----------------------------------------*/
+/* H1 et le P dans le header     */
+/*----------------------------------------*/
+header h1
+{
+font-size: 18px;
+width: 72%;
+}
+/*----------------------------------------*/
+/* Barre de recherche      */
+/*----------------------------------------*/
+form 
+{
+   width: 55%;
+}
+/*----------------------------------------*/
+/* Barre IIIIIIIIIiiiiiiIIIIIIIIIIIIII      */
+/*----------------------------------------*/
+.ciecle_i_and_sentence
+{
+    width: 55%;
+}
+/*----------------------------------------*/
+/* Barre de Filtre et compagnie      */
+/*----------------------------------------*/
+.filtered_theme
+{
+    width:100% ;
+}
+/*----------------------------------------*/
+/*  sesction: HERBERGEMENTS + Les plus Populaires  */
+/*----------------------------------------*/
+.section_plus_aside /* sesction: HERBERGEMENTS aside:POPULIRES */
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  
+    width: 100%;
+    height: 1000px; 
+}
+/*----------------------------------------*/
+/*  sesction: HERBERGEMENTS   */
+/*----------------------------------------*/
+.firstsection /*SECTION 1 */
+{
+   width: 100%;
+   height:630px ;
+   object-fit: cover;
+}
+.photo1{
+    object-fit: cover;
+}
+/*----------------------------------------*/
+/*  aside   Les plus Populaires  */
+/*----------------------------------------*/
+aside
+{
+   width: 100%;
+   height:250px;
+   margin-bottom:7%;
+}
+
+.contain_of_popular_bed-room
+{
+    width: 59%;
+}
+
+.all_popular_for_phone
+{
+    width: 94%;
+    height:190px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:initial;
+    margin:auto;
+}
+
+.all_popular_for_phone figure
+{
+    width: 30%;
+}
+
+.all_popular_for_phone h3
+{
+   font-size: 16px;
+}
+
+.all_popular_for_phone p
+{
+   font-size: 12px;
+}
+
+.the_figure_of_aside2 h3
+{
+   height: 60px;
+}
+.the_figure_of_aside2 p
+{
+   height: 50px;
+}
+
+.the_figure_of_aside3 h3
+{
+   height: 45px;
+}
+/*----------------------------------------*/
+/*  Activites a Marseille  */
+/*----------------------------------------*/
+.secondsection
+{
+    height: 450px;
+}
+
+.secondsection figure
+{
+    height: 330px;
+}
+
+.first_activity1
+{
+    width: 100% ;
+    height: 280px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.first_activity2
+{
+    width: 100% ;
+    height: 280px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.first_activity3
+{
+    width: 100% ;
+    height: 280px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.first_activity4
+{
+    width: 100% ;
+    height: 280px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.secondsection figcaption
+{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+/*----------------------------------------*/
+/*  FOOTER  */
+/*----------------------------------------*/
+footer 
+{
+    width: 100%;
+}
+
+.display_of_footer p
+{
+    font-size: 14px;
+}

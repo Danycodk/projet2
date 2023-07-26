@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    margin:0;
+    padding:0;
+    color: #181818;
+    text-decoration:none;
+}
+body
+{
+    font-family:'Raleway', sans-serif;
+    width: 1400px;
+}
+#all_the_page 
+{
+    width: 95%;
+    margin:auto;
+    background-color: #ffffff;
+}
+/*----------------------------------------*/
+/* le logo Booki et les titres hebergements et activites */
+/*----------------------------------------*/
+header
+{
+    width: 100%; /* 100%; */
+    height: 180px;
+}
+
+header .figurehead 
+{
+    width: 6%;
+    display: flex;
+    align-items: center;
+}
+
+.head_of_page
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logobooki /* IMG */
+{
+    width:100%;
+    height: 22px; ;
+}
+
+nav ul
+{
+    
+    width:300px ;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li:nth-child(1)
+{ 
+    padding-top: 30px;
+    border-top: solid;
+    border-color: #f2f2f2;
+    border-width: 5px;
+}
+nav li:nth-child(2)
+{
+    padding-top: 30px;
+border-top: solid;
+border-color: #f2f2f2;
+border-width: 5px;
+}
+
+nav li:nth-child(1):hover
+{
+border-color: #0065fc;
+border-width: 8px;
+color: #0065fc;
+}
+nav li:nth-child(2):hover
+{
+border-color:#0065fc;
+border-width: 8px;
+color: #0065fc;
+}
+
+nav a:hover
+{
+    color: #0065fc;
+}
+
+/*----------------------------------------*/
+/* H1 et le P dans le header     */
+/*----------------------------------------*/
+header h1
+{
+font-size:22px;
+height: 35px;
+}
+header p 
+{
+font-size: 16px;
+height: 25px;
+}
+/*----------------------------------------*/
+/* Barre de recherche      */
+/*----------------------------------------*/
+form 
+{
+   display: flex;
+   width: 35%;
+   height: 100px;
+}
+
+.flex_input_button
+{
+    display: flex;
+    width:89%;
+    height: 60px;
+}
+
+.location
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+    height: 58px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-right: none;
+    border-color: #f2f2f2;
+}
+
+.location i
+{
+   font-size: 22px;   /* Taille de l icone */
+}
+
+input
+{
+    width: 66%;
+    height: 60px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: #f2f2f2;
+    border-right: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logorechercheI 
+{
+    display:none;                                                     /* ++++++++++++++++++++++++  */
+    background-color: #0065fc;
+    width: 16%;
+    height: 60px;
+    border-style: solid;
+    border-color: #0065fc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+}
+
+.button123
+{
+background-color: #0065fc;
+width: 34%;
+height: 60px;
+border-top-right-radius:  20px;
+border-bottom-right-radius:  20px;
+border-color: #0065fc;
+color: #ffffff;
+font-weight: bold;
+font-size: 18px;
+} 
+/*----------------------------------------*/
+/* Barre de Filtre et compagnie      */
+/*----------------------------------------*/
+.filtered_theme
+{
+    width:72% ;
+    display: flex;
+    height: 60px;
+    justify-content: space-between; /* PEUT ON DEFINIR UN CHFFRES DE PX POUR DIFFEREMCE D ESPACES EN PX */
+    font-size: 17px;
+    align-items: center;
+}
+.filtered_theme ul
+{
+    width: 90%; /* 2% de space   */
+    height: 70px;
+    font-size: 17px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.filtered_theme h2 
+{
+   width: 8%;
+   height: 50px;
+}
+.filtered_theme li 
+{
+    font-weight: bold;
+}
+.filtered_theme li:nth-child(1) /* css select second paragraph in div */
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align:left;
+}
+.filtered_theme i
+{
+    background-repeat: no-repeat;
+    color: #0065fc;
+    width: 10%;
+    height:16px ;
+    background-size: contain; 
+}  
+.filtered_theme li:nth-child(2)
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 50px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}
+.filtered_theme li:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+} 
+.filtered_theme li:nth-child(4)
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 29%; /* +3 */
+    height: 50px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}  
+.filtered_theme li:hover
+{
+    background-color:#DEEBFF ;
+}
+/*----------------------------------------*/
+/* Barre IIIIIIIIIiiiiiiIIIIIIIIIIIIII      */
+/*----------------------------------------*/
+.ciecle_i_and_sentence
+{
+    display: flex;
+    align-items: center;
+    width: 36%;
+    height:  70px;
+}
+
+.ciecle_i_and_sentence p
+{
+    width: 100%;
+    height: 25px;
+    margin-left:2%;
+}
+.ciecle_i_and_sentence .figure123
+{
+    width: 28px;
+    height: 28px;
+      border-radius:50% ;
+      border-color: #f2f2f2;
+      border-style: solid;
+      border-width: 1px;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+}
+.ciecle_i_and_sentence i
+{
+    width: 8px;
+    height: 15px;
+}
+/*----------------------------------------*/
+/*  sesction: HERBERGEMENTS + Les plus Populaires  */
+/*----------------------------------------*/
+.section_plus_aside /* sesction: HERBERGEMENTS aside:POPULIRES */
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 626px;
+}
+ .bluestar4 i:nth-child(1)
+{
+color:#0065fc;
+width: 20px;
+height: 18px;
+}
+.bluestar4 i:nth-child(2)
+{
+color:#0065fc;
+width: 20px;
+height: 18px;
+}
+.bluestar4 i:nth-child(3)
+{
+color:#0065fc;
+width: 20px;
+height: 18px;
+}
+.bluestar4 i:nth-child(4)
+{
+color:#0065fc;
+width: 20px;
+height: 18px;
+}
+.bluestar4 i:nth-child(5)
+{
+color:#F2F2F2;
+width: 20px;
+height: 18px;
+}
+/*----------------------------------------*/
+/*  sesction: HERBERGEMENTS   */
+/*----------------------------------------*/
+.firstsection /*SECTION 1 */
+{
+   width: 64%;
+   height: 626px;
+   background-color: #F2F2F2;
+   border-width: 2px;
+   border-radius: 15px;
+}
+.firstsection h2
+{
+    width: 94%;
+    height: 80px;
+    font-size: 22px; 
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.first_bed-room     /* PREMIER DISPLAY pour les trois ranges*/
+{
+    width:94% ;
+    height: 240px;
+    display: flex;
+   justify-content: space-between;
+    margin: auto;
+}
+
+.figure1            /* figure le carre ou rectangle autour de la photo et des mots :nth-child(1) */
+{
+    width: 30%; /* -5*/
+    height: 200px;    /* -5*/
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.figcaption_h3_p_p h3
+{
+    height: 24px;
+    font-size: 18px;
+}
+.figcaption_h3_p_p p
+{
+    height: 24px;
+}
+
+.figcaption_h3_p_p /* Figcaption */
+{
+    background-color: #ffffff;
+    width:100%;
+    height: 70px;
+    font-size: 18px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.photo1 /*  Represente toutes les 6 photos d hebergements */
+{ 
+    background-size: cover;
+    background-position: center;
+    width: 100%;    /*  la taille de bordur qui est de 10px */
+    height: 130px;
+    border-radius: 20px 20px 0px 0px ;
+    margin: auto;
+}
+
+.second_bed-room
+{
+    width:94% ;
+    height: 225px;
+    display: flex;
+   justify-content: space-between;
+    margin: auto;
+}
+
+.affiche_plus
+{
+    width: 94%;
+    height: 70px;
+    font-size: 22px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*----------------------------------------*/
+/*  aside   Les plus Populaires  */
+/*----------------------------------------*/
+aside
+{
+width: 32%;
+height: 626px;
+background-color: #F2F2F2;
+border-radius: 15px;
+}
+
+.all_popular_for_phone
+{
+    height: 530px;
+    width:90% ;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.head_of_the_side
+{
+    width: 90%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: auto;
+    align-items: center;
+}
+.head_of_the_side h2
+{
+font-size: 22px;
+}
+.head_of_the_side i
+{
+    color: #0065fc;
+}
+
+.all_popular_for_phone figure
+{
+    background-size: contain;
+    background-color: #ffffff;
+    width: 90%;
+    height: 144px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain_of_popular_bed-room
+{
+    width: 53%;
+    height: 130px;
+}
+
+ h3
+{
+   height: 50px;
+   font-size: 18px;
+}
+
+.all_popular_for_phone p
+{
+    font-size: 18px;
+    height: 60px;
+}
+
+.the_figure_of_aside3 h3
+{
+    height: 35px;
+}
+
+.the_figure_of_aside3 p
+{
+   height: 75px;
+}
+
+.popular_bed-room1
+{
+   background-size: cover;
+   background-position:center;
+   width: 42%;     
+   height: 140px;   
+   border-top-left-radius:15px ;
+   border-bottom-left-radius: 15px;
+}
+/*----------------------------------------*/
+/*  Activites a Marseille  */
+/*----------------------------------------*/
+.secondsection
+{
+    width: 100%;
+    height: 550px;
+}
+
+.secondsection h2
+{
+    width: 96%;
+    height: 70px;
+    font-size: 22px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.photo_for_activity
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+;
+}
+
+.secondsection figure
+{
+    background-size: contain;
+    width: 23%;
+    height: 445px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.secondsection figcaption
+{
+    width: 100%;
+    height: 56px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+}
+.photo_for_activity h3
+{
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.first_activity1
+{
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    width: 100% ;
+    height: 389px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*----------------------------------------*/
+/*  FOOTER  */
+/*----------------------------------------*/
+footer 
+{
+    width: 100%;
+    height: 300px;
+    background-color:  #F2F2F2;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.display_of_footer
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    background-color: #F2F2F2;
+}
+.display_of_footer h3
+{
+    font-size: 22px;
+    height: 55px;
+}
+
+.display_of_footer p
+{
+    height: 45px;
+    font-size: 18px;
+}
+
+
+.footerfirst_rank1
+{
+    width: 25%;
+}
+.footerfirst_rank2
+{
+    width: 25%;
+}
+
+.footerfirst_rank3
+{
+    width: 25%;
+}

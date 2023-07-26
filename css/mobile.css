@@ -1,0 +1,494 @@
+body{
+    width: 100%;
+}
+#all_the_page 
+{
+    width: 98%;
+}
+/*----------------------------------------*/
+/* le logo Booki et les titres hebergements et activites */
+/*----------------------------------------*/
+header
+{
+    width: 100%;
+    height: 295px;
+}
+.head_of_page
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 160px;
+}
+
+header .figurehead
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+nav 
+{
+    width: 100%;
+    height: 110px;
+}
+.logobooki
+{
+    width:60px;
+    height: 19px ;
+}   
+
+nav ul
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+nav li
+{
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    padding-top: 0px;
+    border-top:none;
+}
+nav li:nth-child(1)
+{
+width: 100%;
+height: 60px;
+border-bottom: solid;
+border-color: #fff2f2;
+border-width: 4px;
+padding-top: 0px;
+border-top:none;
+}
+nav li:nth-child(2)
+{
+  width: 100%;
+  height: 60px;
+  border-bottom: solid;
+  border-color: #fff2f2;
+  border-width: 4px;
+  padding-top: 0px;
+  border-top:none;
+}
+nav li:nth-child(1):hover
+{
+width: 100%;
+height: 60px;
+border-width: 2px;
+}
+nav li:nth-child(2):hover
+{
+width: 100%;
+height: 60px;
+border-width: 2px;
+}
+/*----------------------------------------*/
+/* H1 et le P dans le header     */
+/*----------------------------------------*/
+header h1
+{
+    width: 85%;
+    margin: auto;
+    height: 60px;
+    font-size: 18px;
+}
+header p 
+{
+    width: 85%;
+    margin: auto;
+    height: 30px;
+    font-size: 16px; 
+}
+/*----------------------------------------*/
+/* Barre de recherche      */
+/*----------------------------------------*/
+form 
+{
+   display: flex;
+   width: 94%;
+   height: 80px;
+   margin: auto;
+}
+.flex_input_button
+{
+    display: flex;
+    width:86%;
+    height: 60px;
+}
+.location
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    height: 58px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-right: none;
+    border-color: #f2f2f2;
+}
+
+.location i
+{
+   font-size: 22px;   /* Taille de l icone */
+}
+
+input
+{
+    width: 80%;
+    height: 60px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: #f2f2f2;
+    border-right: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logorechercheI 
+{
+    display:inline;                                                     /* ++++++++++++++++++++++++  */
+    background-color: #0065fc;
+    width: 20%;
+    height: 60px;
+    border-style: solid;
+    border-color: #0065fc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+}
+
+.fa-magnifying-glass{
+    color: #ffffff;
+    font-size: 22px;
+}
+.button123
+{
+    display: none;
+background-color: #0065fc;
+width: 34%;
+height: 60px;
+border-top-right-radius:  20px;
+border-bottom-right-radius:  20px;
+border-color: #0065fc;
+color: #ffffff;
+font-weight: bold;
+font-size: 18px;
+} 
+
+
+/*----------------------------------------*/
+/* Barre de Filtre et compagnie      */
+/*----------------------------------------*/
+.filtered_theme
+{
+    width:98% ;
+    height: 180px; 
+    margin: auto;
+    display:block;
+} 
+
+.filtered_theme h2 
+{
+   width: 96%;
+   margin: auto;
+}
+
+.filtered_theme ul
+{
+    width: 100%;
+    height:110px; /*  70px;   Change a cause du flex wrap*/
+    font-size: 11px;                        
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:space-between ;
+    margin: auto;
+}
+
+.filtered_theme li 
+{
+    font-weight: bold;
+}
+.filtered_theme li:nth-child(1) /* css select second paragraph in div */
+{
+    display: flex;
+    align-items: center;
+    width: 42%;
+    height: 45px;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: #f2f2f2 0px 0px 20px 0px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}
+.filtered_theme li:nth-child(2)
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 42%;
+    height: 45px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}
+.filtered_theme li:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 42%;
+    height: 45px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+} 
+.filtered_theme li:nth-child(4)
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 42%;
+    height: 45px;
+    display: flex;
+    border-radius: 25px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}  
+/*----------------------------------------*/
+/* IIIIIIIIIIIIiIIIIIIII    */
+/*----------------------------------------*/
+.ciecle_i_and_sentence
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height:  40px;
+    margin: auto;
+}
+.ciecle_i_and_sentence p
+{
+    width: 98%;
+    font-size: 14px;
+}
+
+.ciecle_i_and_sentence .figure123
+{
+    width: 25px;
+    height: 25px;
+}
+/*----------------------------------------*/
+/*  sesction: HERBERGEMENTS + Les plus Populaires  */
+/*----------------------------------------*/
+.section_plus_aside /* sesction: HERBERGEMENTS aside:POPULIRES */
+{
+    display:flex ;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 2250px; /* 1500+700 */
+    background-color: #ffffff;
+}
+/*----------------------------------------*/
+/*  sesction: HERBERGEMENTS   */
+/*----------------------------------------*/
+.firstsection /*SECTION 1 */
+{
+   width: 100%;
+   height: 1580px; 
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   background-color: #ffffff;
+}
+
+.affiche_plus
+{
+display: none;
+}
+
+.first_bed-room     /* PREMIER DISPLAY pour les trois ranges*/
+{
+    width:96% ;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.figure1            /* figure le carre ou rectangle autour de la photo et des mots :nth-child(1) */
+{
+    width: 90%; 
+    height: 185px;   
+    box-shadow: 1px 1px 1px 3px #F2F2F2;
+    margin: auto;
+}
+.figcaption_h3_p_p /* Figcaption */
+{
+    background-color: #ffffff;     /*uhihiuhoi*/
+    width: 100%;
+    height: 58px;
+}
+.figcaption_h3_p_p p /* Figcaption */
+{
+   height: 20px;
+}
+.figcaption_h3_p_p h3 /* Figcaption */
+{
+   height: 20px;
+}
+.figcaption_h3_p_p .bluestar4 /* Figcaption */
+{
+   height: 18px;
+}
+
+.photo1 /*  La photo */
+{ 
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.second_bed-room
+{
+   width:96% ;
+   height: 725px;
+   display: flex;
+   flex-direction: column;
+   align-content: space-around;
+   background-color: #ffffff;
+   margin: auto;
+}
+
+/*----------------------------------------*/
+/*  aside   Les plus Populaires  */
+/*----------------------------------------*/
+aside
+{
+   width: 100%;
+   height: 650px;
+   background-color: #F2F2F2;
+   border-radius: 0px;
+   margin: auto;
+}
+.all_popular_for_phone
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.all_popular_for_phone figure
+{
+    background-color: #ffffff;
+    width: 90%;
+    height: 150px;
+}
+
+.contain_of_popular_bed-room /* FIGCAPTION */
+{
+    width: 56%;
+    height: 100%;
+}
+
+.popular_bed-room1
+{
+   height: 150px;
+}
+/*----------------------------------------*/
+/*  Activites a Marseille  */
+/*----------------------------------------*/
+.secondsection
+{
+    width: 100%;
+    height: 1200px;
+
+}
+.photo_for_activity
+{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.secondsection figure
+{
+    background-size: contain;
+    width: 90%;
+    height: 210px;
+    margin: auto;
+}
+
+.first_activity1
+{
+    height: 150px;
+    object-fit: cover;
+}
+/*----------------------------------------*/
+/*  FOOTER  */
+/*----------------------------------------*/
+footer 
+{
+    width: 100%;
+    height: 750px;
+    background-color:  #F2F2F2;
+    margin: auto;
+}
+
+.display_of_footer
+{
+    height:680px ;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: auto;
+}
+.display_of_footer h3
+{
+    width: 100%;
+    font-size: 22px;
+    height: 55px;
+} 
+.display_of_footer p
+{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+}
+.footerfirst_rank1
+{
+    width: 100%;
+    height: 190px;
+}
+.footerfirst_rank2
+{
+    width: 100%;
+    height: 190px;
+}
+
+.footerfirst_rank3
+{
+    width: 100%;
+    height: 190px;
+}
